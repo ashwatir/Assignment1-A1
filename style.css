@@ -8,6 +8,18 @@ html{
     font-family: 'Montserrat', sans-serif;
     
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #0a0a0a; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 a{
     text-decoration: none;
     
@@ -43,6 +55,7 @@ img{
     padding: 0 50px;
     justify-content: center;
     
+    
 }
 #home::after{
     content: '';
@@ -52,7 +65,7 @@ img{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .6;
+    opacity: .7;
     z-index: -1;
 }
 
@@ -214,6 +227,7 @@ p{
     text-align: center;
     box-shadow: none;
     transition: all .4s ease;
+    cursor: pointer;
 }
 .box:hover{
     -webkit-box-shadow: 7px 7px 28px -8px rgba(255,113,154,1);
